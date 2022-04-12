@@ -1,0 +1,35 @@
+table {
+    border: 1px black solid;
+  }
+
+body {
+      text-align: center;
+      font-family: Georgia, serif;
+  }
+
+thead {
+  font-family: system-ui;
+}
+
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #8CB1DE;
+  color: white;
+}
+
